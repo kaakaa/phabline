@@ -1,5 +1,6 @@
 require 'sinatra'
 require File.expand_path('action', File.dirname(__FILE__))
+require File.expand_path('mysql', File.dirname(__FILE__))
 
 module Phabline
 	class App < Sinatra::Base
@@ -11,6 +12,11 @@ module Phabline
 			@actions << Action.new("title1","content","link")
 			@actions << Action.new("title2","content","link")
 			haml :timeline
+		end
+
+		get '/test' do
+			accessor = MySqlAccessor.new
+			accessor.test
 		end
 	end
 end
