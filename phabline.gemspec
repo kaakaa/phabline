@@ -22,6 +22,8 @@ Gem::Specification.new do |spec|
   spec.add_dependency "thin"
   spec.add_dependency "foreman", "0.61"
   spec.add_dependency "haml"
+  spec.add_dependency "sass"
+  spec.add_dependency "compass"
   spec.add_dependency "rack"
   spec.add_dependency "ruby-mysql"
 
