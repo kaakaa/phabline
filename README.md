@@ -1,24 +1,12 @@
 # Phabline
 
-TODO: Write a gem description
+Timeline of review comment on Phabricator's Diffusion.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'phabline'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install phabline
-
 ## Usage
 
-TODO: Write usage instructions here
+Under development
 
 ## Contributing
 
@@ -27,3 +15,7 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## LICENSE
+
+Copyright © 2014 kaakaa Distributed under the terms of MIT License.
