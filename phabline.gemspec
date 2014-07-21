@@ -23,6 +23,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "foreman", "0.61"
   spec.add_dependency "haml"
   spec.add_dependency "rack"
+  spec.add_dependency "ruby-mysql"
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
